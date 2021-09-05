@@ -24,3 +24,13 @@ This app was originally generated on Sat Sep 04 2021 14:12:08 GMT+0500 (Pakistan
 Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
 -->
 
+api link
+GET = http://localhost:1337/articles/allusers
+GET = http://localhost:1337/articles/singleuser?email=hamzashakir99@gmail.com
+POST = http://localhost:1337/articles/saveusers => {
+  {
+    "email": "hamzashakir99@gmail.com",
+    "password": "123456"
+  }
+}
+
